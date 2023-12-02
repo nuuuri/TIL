@@ -1,5 +1,9 @@
 # TIL
 
+### Browser
+- [브라우저의 렌더링 원리](browser/브라우저의%20렌더링%20원리.md)
+- [Reflow와 Repaint가 실행되는 시점](browser/Reflow와%20Repaint가%20실행되는%20시점.md)
+
 ### CSS
 - [반응형 웹을 위한 미디어 쿼리(Media Query)](css/미디어%20쿼리(Media%20Query).md)
 
