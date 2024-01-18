@@ -115,6 +115,14 @@ class store {
    ```tsx
        ...
 
+       test = flow(function * () {
+         const { data1, data2 } = yield this.foo();
+
+         // 비동기 작업이 필요한 부분을 수동으로 감싸지 않아도 됨
+         this.data1 = res.data1;
+         this.data2 = res.data2;
+       })
+
        ...
 
    ```
